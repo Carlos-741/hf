@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 if [[ $EUID > 0 ]]; then
   printf "\e[1;31mPlease run as root/sudo\e[0m\n"
